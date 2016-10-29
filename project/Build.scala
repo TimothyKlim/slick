@@ -12,9 +12,9 @@ import com.typesafe.sbt.sdlc.Plugin._
 
 object SlickBuild extends Build {
 
-  val slickVersion = "3.2.0-SNAPSHOT"
+  val slickVersion = "3.2.0-M2"
   val binaryCompatSlickVersion = "3.2.0" // Slick base version for binary compatibility checks
-  val scalaVersions = Seq("2.11.8", "2.12.0-M5")
+  val scalaVersions = Seq("2.11.8", "2.12.0")
 
   /** Dependencies for reuse in different parts of the build */
   object Dependencies {
